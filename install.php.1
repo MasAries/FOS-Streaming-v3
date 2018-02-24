@@ -56,7 +56,7 @@ if(trim($arch) == "x86_64") {
     shell_exec("apt-get install -y --force-yes libxslt1-dev git > /dev/null 2>&1");
     shell_exec("apt-get install -y --force-yes libssl-dev > /dev/null 2>&1");
     shell_exec("apt-get install -y --force-yes git > /dev/null 2>&1");
-    shell_exec("apt-get install -y --force-yes php5  > /dev/null 2>&1");
+    shell_exec("apt-get install -y --force-yes php5.6  > /dev/null 2>&1");
     shell_exec("apt-get install -y --force-yes unzip > /dev/null 2>&1");
     echo "#";
     shell_exec("apt-get install -y --force-yes python-software-properties > /dev/null 2>&1");
@@ -162,7 +162,7 @@ if(trim($arch) == "x86_64") {
     shell_exec("apt-get install -y libjpeg8 > /dev/null 2>&1");
     shell_exec("apt-get install -y --force-yes xtrans-dev > /dev/null 2>&1");
     shell_exec("apt-get install -y --force-yes zlib1g-dev > /dev/null 2>&1");
-    shell_exec("apt-get install -y --force-yes php5-fpm  > /dev/null 2>&1");
+    shell_exec("apt-get install -y --force-yes php5.6-fpm  > /dev/null 2>&1");
     echo "]PASS \n";
     echo "4. [FOS-Panel Installation:] ";
     echo " [#";
