@@ -71,4 +71,4 @@ reserves the right to change the license of future releases.
 
 Donations are **greatly appreciated!**
 
-[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif "Mas_Aries ")](https://www.paypal.me/Receivers)
+[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif "DONATION")](https://www.paypal.me/Receivers)
