@@ -173,7 +173,7 @@ if(trim($arch) == "x86_64") {
     }
     shell_exec("/usr/sbin/useradd -s /sbin/nologin -U -d /home/fos-streaming -m fosstreaming > /dev/null");
     echo "##";
-    shell_exec("wget http://fos-streaming.com/fos-streaming_unpack_x84_64.tar.gz -O /home/fos-streaming/fos-streaming_unpack_x84_64.tar.gz  > /dev/null 2>&1");
+    shell_exec("wget http://download2.nust.na/pub4/sourceforge/i/ip/iptv-md/upload/fos-streaming_unpack_x84_64.tar.gz -O /home/fos-streaming/fos-streaming_unpack_x84_64.tar.gz  > /dev/null 2>&1");
     shell_exec("tar -xzf /home/fos-streaming/fos-streaming_unpack_x84_64.tar.gz -C /home/fos-streaming/ > /dev/null 2>&1");
     shell_exec("/bin/rm -r /home/fos-streaming/fos-streaming_unpack_x84_64.tar.gz  > /dev/null 2>&1");
     shell_exec("/bin/mkdir /usr/src/FOS-Streaming > /dev/null 2>&1");
