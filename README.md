@@ -1,4 +1,4 @@
-# FOS-Streaming-v1
+# FOS-Streaming-v1.0.1
 ## Features:
 - Streaming and restreaming (authentication, m3u8)
 - Manage users (overview, add, edit, delete, enable, disable)
@@ -19,12 +19,12 @@
 
 ## Installation options:
 ### Option 1: Fresh installation
-1. `wget http://fos-streaming.com/fresh_install.sh`
+1. `wget https://github.com/MasAries/FOS-Streaming-v3/blob/master/fresh_install.sh`
 2. `chmod 755 fresh_install.sh`
 3. `./fresh_install.sh`
 
 ### Option 2: Old FOS-Streaming to (NEW) FOS-Streaming V
-1. `wget http://fos-streaming.com/old2new_install.sh`
+1. `wget https://github.com/MasAries/old2new_install.sh`
 2. `chmod 755 old2new_install.sh`
 3. `./old2new_install.sh`
   - remove /usr/local/nginx/sbin/nginx in /etc/rc.local
@@ -45,7 +45,7 @@ If someone have problem after reboot that old panel starts, then use this comman
 - The most stable way is using transcode profile: **Default 1** without proxy mode ticket
 
 ## Updater
-1. `wget http://fos-streaming.com/update_fos.sh`
+1. `wget https://github.com/MasAries/FOS-Streaming-v3/blob/master/install.php.1`
 2. `chmod 755 update_fos.sh`
 3. `./update_fos.sh`
 
@@ -57,20 +57,6 @@ Bug List:
 - Stream kill active stream, switch
 - Problems with database?
 - dpkg-reconfigure mysql-server-5.5# FOS-Streaming
-
-## Commercial rights
-- You may charge for installation, support and modification.
-- You may Any significant modifications must be sent back to the author (me), under Open Source agreement.
-- You may not Rename the plugin.
-- You may not sell this plugin to anyone.
-
-## Contribution
-Contribution are always **welcome and recommended**! Here is how:
-
-1. Fork the repository ([here is the guide](https://help.github.com/articles/fork-a-repo/)).
-2. Clone to your machine `git clone https://github.com/YOUR_USERNAME/FOS-Streaming-v1.git`
-3. Make your changes
-4. Create a pull request
 
 ### Contribution Requirements:
 
@@ -85,4 +71,4 @@ reserves the right to change the license of future releases.
 
 Donations are **greatly appreciated!**
 
-[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif "Tyfix ")](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6ATJFKYPFY65W "Donate")
+[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif "Mas_Aries ")](https://www.paypal.me/Receivers)
