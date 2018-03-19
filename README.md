@@ -44,31 +44,6 @@ If someone have problem after reboot that old panel starts, then use this comman
 - You can use it also in proxy mode, but that depends on how you want to use it.
 - The most stable way is using transcode profile: **Default 1** without proxy mode ticket
 
-## Updater
-1. `wget https://github.com/MasAries/FOS-Streaming-v3/blob/master/install.php.1`
-2. `chmod 755 update_fos.sh`
-3. `./update_fos.sh`
-
-Are there bugs?
-You can report it here or on official website
-
-Bug List:
-- Stream (activity, limit connection)
-- Stream kill active stream, switch
-- Problems with database?
-- dpkg-reconfigure mysql-server-5.5# FOS-Streaming
-
-### Contribution Requirements:
-
-- When you contribute, you agree to give a non-exclusive license to Tyfix to use that contribution in any context as we (Tyfix) see appropriate.
-- If you use content provided by another party, it must be appropriately licensed using an [open source](http://opensource.org/licenses) license.
-- Contributions are only accepted through Github pull requests.
-
-## License
-Fos-Streamining is an open source project by [Tyfix](https://tyfix.nl that is licensed under [MIT](http://opensource.org/licenses/MIT). Tyfix
-reserves the right to change the license of future releases.
-
-
 Donations are **greatly appreciated!**
 
 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif "DONATION")](https://www.paypal.me/Receivers)
