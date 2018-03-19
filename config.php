@@ -14,14 +14,14 @@ $template = new Blade($views, $cache);
 
 $capsule = new Capsule;
 $capsule->addConnection([
-    'driver'    => 'mysql',
-    'host'      => 'localhost',
-    'database'  => 'fstream',
-    'username'  => 'root',
-    'password'  => 'zzz',
-    'charset'   => 'utf8',
+    'driver' => 'mysql',
+    'host' => 'localhost',
+    'database' => 'xxx',
+    'username' => 'ttt',
+    'password' => 'zzz',
+    'charset' => 'utf8',
     'collation' => 'utf8_unicode_ci',
-    'prefix'    => '',
+    'prefix' => ''
 ]);
 $capsule->setAsGlobal();
 $capsule->bootEloquent();
