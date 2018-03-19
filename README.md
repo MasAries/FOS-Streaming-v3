@@ -19,13 +19,7 @@
 
 ## Installation options:
 # ubuntu 14 must install ffmpeg
-- sudo add-apt-repository ppa:mc3man/trusty-media -y
-[Also note that with apt-get a sudo apt-get dist-upgrade is needed for initial setup & with some package upgrades
-More info: https://launchpad.net/~mc3man/+archive/ubuntu/trusty-media
-Press [ENTER] to continue or ctrl-c to cancel adding it]
-sudo apt-get update
-sudo apt-get dist-upgrade
-sudo apt-get install ffmpeg
+sudo apt-get install libav-tools
 
 ### Option 1: Fresh installation
 1. `wget https://github.com/MasAries/FOS-Streaming-v3/blob/master/fresh_install.sh`
